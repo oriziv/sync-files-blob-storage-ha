@@ -1,0 +1,19 @@
+{
+    "name": "Sync files to Azure blob storage",
+    "version": "1",
+    "slug": "sync_cam",
+    "description": "Sync files to your azure blob storage",
+    "startup": "before",
+    "boot": "auto",
+    "map": [
+      "share:rw"
+    ],
+    "options": {
+      "connectionString": "",
+      "watch": "*.jpg"
+    },
+    "schema": {
+      "connectionString": "str",
+      "watch" : "str"
+    }
+  }

@@ -1,0 +1,16 @@
+{
+  "name": "blob-storage-upload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "oriziv",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-deploy-azure-cdn": "^2.1.0",
+    "yargs": "^11.0.0"
+  }
+}
