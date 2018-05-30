@@ -30,6 +30,6 @@ gulp.task('watch-files', () => {
 
 
 function getFolderName() {
-    var d = new Date();
-    return toLocaleDateString().replace(/\//g,"-");
+    var today = new Date();
+    return `${today.getDate()}-${today.getMonth()+1}-${today.getFullYear()}`;
 }
